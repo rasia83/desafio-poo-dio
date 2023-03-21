@@ -22,7 +22,7 @@ public class Dev {
             this.conteudosConcluidos.add(conteudo.get());
             this.conteudosInscrito.remove(conteudo.get());
         } else {
-            System.err.println( this .nome + "Você não está matriculado em nenhum conteudo ");
+            System.err.println( this .nome + ", Você não está matriculado em nenhum conteudo ");
         }
     }
 
